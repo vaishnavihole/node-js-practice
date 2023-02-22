@@ -1,1 +1,2 @@
-console.log('Hello Word');
+const harry = require("./second.js")
+console.log('Hello Word', harry);
