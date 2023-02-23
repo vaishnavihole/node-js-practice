@@ -1,1 +1,4 @@
-const fs = require('fs/promises');
+const fs = require('fs');
+fs.readFile('file.txt', 'utf8', (err, data)=>{
+    console.log(err, data);
+})
