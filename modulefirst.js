@@ -1,4 +1,4 @@
 //const simple2 = require("./modulesecond.mjs")
 
-import simple from "./modulesecond"
-simple2()
+import {simple, simple2} from "./modulesecond.mjs"
+simple23()
