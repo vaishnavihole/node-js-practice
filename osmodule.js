@@ -1,2 +1,2 @@
 const os = require('os');
-//console.log();
+console.log(os.freemem());
