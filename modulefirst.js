@@ -1,1 +1,3 @@
-const simple = require("./modulesecond")
+const simple2 = require("./modulesecond")
+
+simple2()
