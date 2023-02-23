@@ -1,3 +1,5 @@
+//(function(exports, require, module, _filename, _dirname){
+
 harry = {
     name: "Sai",
     favNum: 3,
@@ -5,3 +7,4 @@ harry = {
 
 }
 module.exports = harry;
+//})
