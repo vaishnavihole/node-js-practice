@@ -7,5 +7,9 @@ const fs = require('fs');
 const a = fs.readFileSync('file.txt')
 console.log(a);
 
+fs.writeFile('file2.txt', "This is a data", ()=>{
+    console.log("Written to the file");
+});
+
 console.log("Finished reading file");
 
