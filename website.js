@@ -19,7 +19,7 @@ const server = http.createServer((req, res)=>{
     }
     else  if(req.url == '/hello'){
         res.statusCode = 200;
-       
+        const data = fs.readFileSync('index.html')
         res.end('<h1> About code with Harry</h1> <p> Hey this is about code with harry! </p>');
     }
     else{
