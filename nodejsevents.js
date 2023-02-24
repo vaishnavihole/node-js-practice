@@ -10,5 +10,6 @@ MyEmitter.on('WaterFull', () => {
     }, 3000)
 });
 
-
-//MyEmitter.emit('event');
+console.log("the script is running");
+console.log("the script is still running");
+MyEmitter.emit('WaterFull');
