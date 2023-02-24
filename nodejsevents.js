@@ -6,10 +6,10 @@ const MyEmitter = new MyEmitter();
 MyEmitter.on('WaterFull', () => {
     console.log('Please turn off motor!');
     setTimeout(() => {
-        console.log('Please turn off motor!');
+        console.log('Please turn off motor! Its a gentle reminder');
     }, 3000)
 });
 
 console.log("the script is running");
-console.log("the script is still running");
 MyEmitter.emit('WaterFull');
+console.log("the script is still running");
